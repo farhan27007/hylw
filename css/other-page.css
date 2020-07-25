@@ -1,0 +1,866 @@
+/* halaman hubungi kami */
+.mt-115 {
+  margin-top: 115px;
+}
+label {
+  font-family: pop-sembold;
+  color: #052448;
+}
+.form-control {
+  border-radius: 7px;
+  padding: 23px 12px;
+  margin-bottom: 25px;
+  border: 1.2px solid #DADADA;
+  font-family: nunito;
+  color: #052448;
+  font-size: 14.5px;
+}
+.form-control:active,.form-control:focus {
+  border: 1.2px solid #32D320;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.ch-border {
+  border: 1.2px solid #C4C4C4 !important;
+}
+textarea.form-control{
+  padding-top: 12px;
+  resize: none;
+  font-size: 14.5px;
+}
+.btn-kirim,.btn-kirim:hover,.btn-kirim:focus,.btn-kirim:active {
+ background-color: #338FFA;
+ border-color: #338FFA;
+ font-family: mont;
+ float: right;
+ padding: 10px 30px;
+ border-radius: 8px;
+}
+.badge-primary {
+  background-color: #2E81E1;
+  margin-left: 19px;
+  border-radius: 50px;
+  padding: 4px 5px;
+}
+/* halaman hubungi kami */
+
+/* popup dalam halaman komentar */
+.modal-open , .modal-open .modal {
+  padding-right: 0px !important;
+}
+.img-ilus-comment {
+  margin-top: 60px;
+  margin-bottom: 13px;
+  width: 45%;
+}
+.title-modal {
+  font-size: 23.5px;
+  color:#16284C;
+  font-family: pop-sembold;
+}
+.sub-title-modal {
+  color:#16284C;
+  font-family: nunito;
+  margin-bottom: 30px;
+}
+.bd-right {
+  margin-top: 5px;
+}
+.btn-block {
+  margin-bottom: 10px;
+}
+/* popup dalam halaman komentar */
+
+/* halaman tentang kami */
+.bgimage-about {
+  width: 100%;
+  background-image: url('../images/bg-about.png');
+  height: 400px;
+  background-repeat:  no-repeat;
+  background-size: contain;
+  background-position: center;
+  /*   background-attachment: fixed; */
+}
+.custom-fsz {
+  margin-top: 160px;
+  font-size: 38px;
+  letter-spacing: 0.7px;
+  font-family: mont;
+  font-weight: bold;
+  color: #fff;
+}
+.no-bg-other-page {
+  background-image: none;
+  margin-bottom: 0px;
+}
+.bc-other-page {
+  padding-bottom: 55px;
+}
+.sub-about-company {
+  padding: 0px;
+}
+.word-about-company {
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 2;
+  font-family: mont-light;
+  color: #000;
+}
+@media(max-width: 767px) {
+  .sub-about-company {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .word-about-company {
+    margin-top: 50px;
+    margin-bottom: -20px;
+  }
+}
+/* halaman tentang kami */
+
+/* halaman faq */
+.bgimage-faq {
+  width: 100%;
+  background-image: url('../images/bg-faq-1.png');
+  height: 400px;
+  background-repeat:  no-repeat;
+  background-size: contain;
+  background-position: center;
+  /*   background-attachment: fixed; */
+}
+.mt-faq-list {
+  margin-top: 15px !important;
+  padding-bottom: 70px;
+
+}
+/* halaman faq */
+
+/* halaman profil */
+.backup-form-profile {
+  padding-bottom: 70px;
+}
+.backup-profile {
+  padding-top: 60px;
+}
+.box {
+  border: 1.2px solid #ABABAB;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+.profile-txt {
+  font-family: nunito;
+  font-weight: 600;
+  color:  #052448;
+  letter-spacing: 0.9px;
+  margin-top: 17.5px;
+  margin-bottom: 20px;
+}
+.profile-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100%;
+}
+.form-upload-file {
+  margin-top: 30px;
+  padding-bottom: 25px;
+}
+.backup-btn-upload-file{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.input-file-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.btn-upload-file {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 8px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #338FFA !important;
+  font-family: mont;
+  border: 1.2px solid #338FFA !important;
+}
+/* halaman profil */
+
+/* halaman konsultasi hukum */
+
+/* step konsultasi */
+
+.help-title {
+  color: #fff;
+  font-family: pop-sembold;
+  margin-top: 50px;
+}
+.help-card {
+  background-color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+.mb-2x {
+  margin-bottom: 2px;
+}
+.help-icon {
+  margin-top: 8px;
+}
+.backup-step-consultation {
+  display: flex;
+  font-family: nunito;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.backup-step-consultation:last-child {
+  margin-top: 10px;
+}
+.number-step-consultation {
+  background-color: #fff;
+  color:#000;
+  padding: 8px 14px;
+  border-radius: 100%;
+  text-align: center;
+}
+.content-step-consultation {
+  margin-top: 8px;
+  margin-left: 16px;
+  color: #fff;
+}
+/* step konsultasi */
+
+.grey-body {
+  background: #F1F3F5;
+}
+.mt-95 {
+  margin-top: 100px;
+}
+.breadcrumb {
+  background-color: transparent;
+  padding: .75rem 2px;
+}
+.breadcrumb li a {
+  color: #000;
+  font-family: nunito;
+  text-decoration: none;
+}
+.breadcrumb li a:hover,.breadcrumb li a:focus,.breadcrumb li a:active {
+  color:#32D320;
+  transition: all 0.2s ease-in-out;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #000;
+  font-family: poppins;
+  content: ">";
+  margin: 0px 10px;
+}
+.langkah-konsultasi {
+  background-color: #32D320;
+}
+
+.konsul-title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.konsul-grid {
+  background-color: #F7FAFE;
+  padding: 0;
+}
+.no-padding {
+  padding: 0px !important;
+}
+.backup-search-lawyer {
+  background-color: #fff;
+  padding: 13px 17px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+}
+.transparent-form,.transparent-form:focus,.transparent-form:active {
+ border: 1.2px solid transparent;
+ color:  #0A295D;
+ font-family: nunito;
+}
+.transparent-form::-webkit-input-placeholder {
+  color: #ABABAB;
+}
+.input-group>.input-group-append>.btn {
+  border-radius: 5px !important;
+}
+.btn-search{
+  background-color: #338FFA;
+  color: #fff;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.search-text-lawyer {
+  font-family: pop-sembold;
+  color: #0A295D;
+  margin-top: 27px;
+}
+.img-kategori-lawyer {
+ margin-left: 4px;
+}
+.text-kategori-lawyer {
+  font-size:11px;
+  text-align: center;
+  font-family:nunito;
+  color: #16284C;
+  margin-top: 8px;
+}
+.backup-icon-lawyer {
+  margin-top: 20px;
+}
+
+/* bagian card chat-lawyer */
+.card-lawyer {
+  padding: 4.5px;
+}
+.img-flash {
+  margin-left: 10px;
+}
+.item-card-lawyer {
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  border: none;
+}
+.backup-item-card-lawyer {
+  margin-top: 15px;
+}
+.card-img-top {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+}
+.content-card-lawyer {
+  padding: 1.25rem 0px;
+  padding-bottom: 0px;
+}
+.card-text {
+  color: #16284C;
+  font-size: 13.5px;
+  font-family: pop-sembold
+}
+.on-status {
+  text-align: left;
+  padding: 0px 15px;
+}
+.online-text {
+  font-family: pop-med;
+  font-size: 12px;
+  color: #32D320;
+}
+.btn-chat {
+  margin-top: 10px;
+  font-family: pop-med;
+  margin-bottom: 0px;
+  font-size: 13px;
+  background: #338FFA;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.backup-icon-control {
+  padding: 11px 18px;
+  border-radius: 100%;background: #FFFFFF;
+  border: 1.5px solid #E5E5E5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.icon-control-slider {
+  color: #E5E5E5;
+  font-size: 23px;
+}
+
+.carousel-control-next, .carousel-control-prev,
+.carousel-control-next:hover, .carousel-control-prev:hover{
+  opacity: 1;
+}
+.carousel-control-prev {
+  margin-left: -5px
+}
+.carousel-control-next {
+  margin-right: -5px;
+}
+
+@media (min-width: 992px) {
+  /* Show 4th slide on lg if col-lg-3*/
+  .carousel-inner .active.card-lawyer.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: 0;  /*change this with javascript in the future*/
+    /* z-index: 0; */
+    display: block;
+    visibility: visible;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Show 3rd slide on md if col-md-6*/
+  .carousel-inner .active.col-md-6.carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -50%;  /*change this with javascript in the future*/
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+}
+
+/* MD */
+@media (min-width: 768px) {
+  .carousel-item {
+    margin-right: 0;
+  }
+  /* show 2 items */
+  .carousel-inner .active + .carousel-item {
+    display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+    transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+  /* left or forward direction */
+  .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+  .carousel-item-next.carousel-item-left + .carousel-item,
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  /* farthest right hidden item must be also positioned for animations */
+  .carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+  }
+  /* right or prev direction */
+  .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+  .carousel-item-prev.carousel-item-right + .carousel-item,
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+/* LG */
+@media (min-width: 992px) {
+  /* show 3rd of 3 item slide */
+  .carousel-inner .active + .carousel-item + .carousel-item {
+    display: block;
+  }
+  .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+    transition: none;
+  }
+  .carousel-inner .carousel-item-next {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+  }
+  /* left or forward direction */
+  .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+  /* right or prev direction */
+  .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+  }
+}
+
+/* bagian card chat-lawyer */
+
+.mt-30 {
+  margin-top: 30px;
+}
+.grid-daftar-pengacara {
+  padding:8px;
+}
+.backup-card-pengacara {
+  padding: 15px 10px;
+  background: #FFFFFF;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+.circle {
+ width: 14px;
+ height: 14px;
+ position: absolute;
+ bottom: 16px;
+ left: 54px;
+ border-radius: 100%;
+ background: #32D320;
+ border: 2px solid #FFFFFF;
+}
+.backup-data-lawyer {
+  margin-left: 10px;
+  margin-right: 3px;
+}
+.img-lawyer {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+
+}
+.lawyer-name a{
+  font-family: pop-sembold;
+  color: #16284C;
+  font-size: 12px;
+}
+.lawyer-name a:hover,.lawyer-name a:focus,.lawyer-name a:active {
+  text-decoration: none;
+  color: #32D320;
+  transition: all 0.3s ease-in-out;
+}
+.rate-price-lawyer {
+  margin-top: 1.5px;
+  font-size: 12px;
+  font-family: mont;
+  color: #e62968;
+}
+.brief-lawyer {
+  font-size: 12px;
+  font-family: nunito;
+  color: #338FFA;
+}
+.icon-star {
+  font-size: 9.2px;
+  color:  #FAD344;
+  margin-left: 2px;
+}
+.disc-price {
+  margin-right: 5px;
+  color: #C4C4C4;
+  text-decoration: line-through;
+}
+
+@media(max-width: 575px) {
+  .on-status {
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+  .set-img-xs{
+    margin-top: 20px;
+    width: 115px;
+    height: 115px;
+  }
+  .card-text {
+    font-size: 17px;
+  }
+  .online-text {
+    font-size: 14px;
+  }
+  .btn-chat {
+    padding: 13px;
+    font-size: 14.5px;
+  }
+  .lawyer-name a {
+    font-size: 14.8px;
+  }
+  .rate-price-lawyer {
+    font-size: 13px;
+  }
+  .brief-lawyer {
+    font-size: 13px;
+  }
+  .icon-star {
+    font-size: 10.6px;
+  }
+}
+/* halaman konsultasi hukum */
+
+/* halaman detail lawyer */
+.backup-detail-pengacara {
+  border:none;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.07);
+  border-radius: 8px; 
+  margin-bottom: 20px;
+
+}
+.head-detail-lawyer{
+  background: #32D320;
+  border-radius: 8px 8px 0px 0px !important;
+  color: #fff;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  border-bottom:none; 
+  background-image: url('../images/hukum-bg.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+
+}
+.backup-data-detail-pengacara {
+  margin-top: -68px;
+}
+.name-detail-lawyer {
+  font-size: 21px;
+  font-family: pop-med;
+  font-weight: 600;
+}
+.backup-data-online {
+  background:  #F9F9F9;;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding-top: 32px;
+  margin-top: -30px;
+}
+.img-detail-pengacara {
+  width: 98px;
+  height: 98px;
+  border-radius: 100%;
+}
+.status-text-lawyer {
+  font-family: nunito;
+  font-size: 11.5px;
+  color: #ABABAB;
+  margin-top: 8px;
+}
+.cr-body-detail-pengacara {
+  padding: 0;
+  padding-bottom: 15px;
+}
+.fsz-13 span {
+  font-size: 13px;
+}
+.total-reviews {
+  font-family: Nunito;
+  font-size: 12px !important;
+  color: #FAD344;
+  margin-left: 8px;
+}
+.icon-data-lawyer {
+  background: rgba(230, 41, 104, 0.2) !important;
+  border-radius: 4px;
+  padding: 11px;
+}
+.top-text-data-lawyer {
+  font-family: Nunito;
+  font-size: 12px;
+  color: #ABABAB;
+}
+.number-data-lawyer {
+  margin-top: 3px;
+  font-family: pop-sembold;
+  font-size: 14px;
+  color: #E62968;
+}
+.dt-lw:last-child {
+  margin-left: 15px;
+}
+.bg-blue {
+  background: rgba(51, 143, 250, 0.2) !important;
+}
+.blue-txt {
+  color: #338FFA;
+}
+.nav-pills .item-detail.active, .nav-pills .show>.item-detail {
+  color: #007bff;
+  background-color: transparent;
+}
+.item-data-lawyer {
+  border-top: 1px solid #C4C4C4;
+  border-bottom: 1px solid #C4C4C4;
+  padding: 12px;
+  padding-bottom: 0;
+}
+.item-data-lawyer:last-child {
+  border-left: 1px solid #C4C4C4;
+}
+.item-data-lawyer a, .item-data-login a {
+  font-family: mont;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+}
+.item-detail {
+  color: #16284C !important;
+}
+.nav-pills .item-detail, .nav-pills .show>.item-detail:after {
+ content: "";
+ padding-bottom: 20px;
+ width: 54%;
+ bottom: -1px;
+ left: 0;
+ border-bottom: 3px solid transparent;
+ border-radius: 0;
+ right: 0;
+ margin: 0 auto;
+}
+.nav-pills .item-detail.active, .nav-pills .show>.item-detail:focus:after, 
+.nav-pills .item-detail.active, .nav-pills .show>.item-detail:active:after {
+ border-bottom: 3px solid #338FFA;
+}
+.btn-spealisasi{
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-family: mont-regular;
+  color: #16284C;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+}
+.lawyer-profile {
+  font-family: Nunito;
+  font-size: 14px;
+  text-align: justify;
+  color: #000000;
+}
+.lawyer-profile a,.lawyer-profile a:hover,.lawyer-profile a:focus {
+  color: #3388fa;
+  text-decoration: none;
+}
+.lawyer-profile i {
+  color: #32D320;
+  margin-right: 10px;
+}
+.lawyer-profile span  {
+  font-size: 12px;
+  color: #888888;
+}
+.cs-fsz-bottom-card {
+  font-size: 17px;
+}
+.conf-btn {
+  margin-top: -10px;
+}
+@media(max-width:990px) {
+  .backup-data-detail-pengacara {
+    margin-top: 20px !important;
+  }
+  .backup-data-online {
+    background-color: transparent;
+  }
+  .set-padding {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  .nav-pills .item-detail, .nav-pills .show>.item-detail:after {
+    width: 100%;
+  }
+  .conf-btn {
+    float: none;
+    margin-top: 20px;
+  }
+  .txt-cntr-xs {
+    text-align: center;
+  }
+}
+/* halaman detail lawyer */
+
+/* popup modal login dan register */
+.backup-login-popup {
+  border-radius: 15px;
+  border: none;
+}
+.head-login-popup {
+  padding: 25px;
+  background: #32D320;
+  border-radius: 15px 15px 0px 0px;
+  background-image: url('../images/bg-login.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.login-text {
+  margin-top: 0;
+  margin-left: 0;
+  padding-bottom: 20px;
+  padding-top: 19px;
+  border-radius: 0 !important;
+  background: #F1F3F5;
+  color: #ABABAB;
+}
+.modal-header .close {
+  padding: 0px 0rem;
+}
+.item-data-login {
+  border-bottom: 1px solid #F1F3F5;
+}
+.nav-pills .login-text.active, .nav-pills .show>.login-text {
+  color: #32D320 !important;
+  background-color: transparent;
+  border-radius: 0;
+}
+.backup-popup-login {
+  margin-top: 15px;
+}
+.popup-login-label {
+  font-family: Nunito;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
+.login-popup-form,.login-popup-form:focus,.login-popup-form:active {
+  background: #F1F3F5;
+  border:1px solid #F1F3F5;
+  border-radius: 5px;
+}
+.btn-password,.btn-password:hover,.btn-password:focus,.btn-password:active {
+  border-left: none;
+  border-radius: 0;
+  border:1px solid #F1F3F5;
+  background-color: #F1F3F5;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn-password i {
+  color: #000;
+  margin-top: 11px;
+}
+.input-group>.custom-select:not(:last-child), 
+.input-group>.form-control:not(:last-child) {
+  border-right: none;
+} 
+.forgot-pass a,.forgot-pass a:hover,.forgot-pass a:focus {
+  font-size: 13.5px;
+  font-family: nunito;
+  color: #32D320;
+  text-decoration: none;
+}
+.btn-log-popup,.btn-log-popup:focus,.btn-log-popup:active {
+  background: #069DD8 !important;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: none;
+  font-family: mont;
+  font-size: 17px;
+  padding: 13px 0px;
+  margin-top: 28px;
+}
+.btn-log-popup:last-child,.btn-log-popup:last-child:focus,.btn-log-popup:last-child:active {
+  margin-top: 20px;
+  background: #F7FAFE !important;
+  color: #000;
+  font-family: nunito;
+}
+/* popup modal login dan register */

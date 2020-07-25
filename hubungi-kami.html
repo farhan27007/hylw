@@ -1,0 +1,98 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Hubungi Kami- HeyLaw</title>
+  <link rel="icon" type="image/png" href="images/logogram.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/other-page.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>        
+</head>
+<body>
+
+  <script>
+    $(function() {
+      $("#nav-2").load("template/nav-2.html");
+      $("#kontak").load("template/kontak.html");
+      $("#promotion").load("template/promotion.html");
+      $("#footer").load("template/footer.html");
+    });
+  </script>
+
+  <div id="nav-2"></div>
+  
+  <!--  -->
+  <div class="container-fluid">
+    <div class="container cont-about mt-115">
+      <div class="row">
+        <div class="col-lg-7 col-md-7 backup-contact-form">
+          <form action="" method="">
+
+            <div class="form-group">
+              <label for="">Nama Anda</label>
+              <input type="text" class="form-control" id=""  placeholder="Nama Lengkap...">
+            </div>
+
+            <div class="form-group">
+              <label for="">Alamat Email</label>
+              <input type="email" class="form-control" id="" placeholder="Alamat email...">
+            </div>
+
+            <div class="form-group">
+              <label for="">Pesan</label>
+              <textarea name="" id="" class="form-control" placeholder="Masukkan pesan anda..."  rows="6"></textarea>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-kirim" data-toggle="modal" data-target="#exampleModal">
+              Kirim<span class="badge badge-primary"><i class="fas fa-arrow-right"></i></span>
+            </button>
+          </form>
+        </div>
+
+        <div class="col-lg-1 d-md-none d-lg-block"></div>
+        <div class="col-lg-4 col-md-5">
+          <div id="kontak"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="promotion"></div>
+  <div id="footer"></div>
+</body>
+</html>
+
+
+
+
+<!-- popup jika sukses komentar -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p class="text-center">
+          <img src="images/ilus-success-comment.svg" class="img-fluid img-ilus-comment" alt="">
+        </p>
+        <p class="title-modal text-center">Terima Kasih</p>
+        <p class="sub-title-modal text-center">Pesan Anda telah berhasil dikirim</p>
+
+        <button type="button" class="btn btn-primary btn-lg btn-kirim btn-block" data-dismiss="modal">
+          Selesai
+          <span class="badge badge-primary float-right bd-right">
+            <i class="fas fa-arrow-right"></i>
+          </span>
+        </button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- popup jika sukses komentar -->

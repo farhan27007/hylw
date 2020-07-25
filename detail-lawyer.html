@@ -1,0 +1,197 @@
+  <!Doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Detail Pengacara - HeyLaw</title>
+    <link rel="icon" type="image/png" href="images/logogram.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/other-page.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>   
+  </head>
+  <body class="grey-body">
+    <script>
+      $(function() {
+        $("#nav-2").load("template/nav-2.html");
+        $("#step-konsultasi").load("template/step-konsultasi.html");
+        $("#chat-dan-daftar-lawyer").load("template/chat-dan-daftar-lawyer.html");
+      });
+    </script>
+
+    <div id="nav-2"></div>
+
+    <div class="container cont-about mt-95">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="konsultasi-hukum.html">Konsultasi hukum</a></li>
+          <li class="breadcrumb-item"><a href="detail-lawyer.html">Detail Pengacara</a></li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="wrapper d-flex flex-column" style="min-height: calc(100vh);">
+      <section class="main d-flex flex-grow-1">
+        <div class="container-fluid">
+
+          <div class="row" style="height:100%;">
+            <div class="col-lg-6 col-md-6 col-sm-6 langkah-konsultasi d-none d-sm-block">
+              <div id="step-konsultasi"></div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 konsul-grid">
+              <div class="container-fluid">
+
+                <div class="row">
+
+                  <div class="col-lg-12 mt-4">
+                    <div class="card backup-detail-pengacara">
+                      <div class="card-header head-detail-lawyer">
+                        <p class="name-detail-lawyer mb-0 text-center">Fajar Romy Gumilar, S.H.</p>
+                      </div>
+                      <div class="card-body cr-body-detail-pengacara">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-lg-3 col-md-12">
+                              <div class="backup-data-detail-pengacara text-center">
+                               <img src="images/foto-lawyer/fajar-romy.png" class="img-detail-pengacara" alt="">
+                               <div class="backup-data-online">
+                                <span class="status-text-lawyer mb-0">Status</span>
+                                <p class="text-center on-status pb-2">
+                                  <span><img src="images/online-lawyer.svg" alt=""></span>
+                                  <span class="online-text">Online</span>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-12 no-padding set-padding">
+                            <p class="mb-0 fsz-13 mt-1">
+
+                              <!-- star icon lawyer -->
+                              <span class="fas fa-star icon-star"></span>
+                              <span class="fas fa-star icon-star"></span>
+                              <span class="fas fa-star icon-star"></span>
+                              <span class="fas fa-star icon-star"></span>
+                              <span class="fas fa-star icon-star"></span>
+                              <span class="total-reviews">2 Reviews</span>
+                              <!-- star icon lawyer -->
+
+                            </p>
+                            
+                            <!-- pengalaman dan lokasi lawyer -->
+                            <div class="d-flex">
+                              <div class="d-flex mt-4 dt-lw">
+                                <p>
+                                  <img src="images/icon-pengalaman.svg" class="icon-data-lawyer" alt="">
+                                </p>
+                                <div class="d-block ml-2">
+                                  <p class="top-text-data-lawyer mb-0">Pengalaman</p>
+                                  <p class="number-data-lawyer">5 Tahun</p>
+                                </div>
+                              </div>
+                              <!-- pengalaman dan lokasi lawyer -->
+
+                              <!-- pengalaman dan lokasi lawyer -->
+                              <div class="d-flex mt-4 dt-lw">
+                                <p>
+                                  <img src="images/icon-lokasi.svg" class="icon-data-lawyer bg-blue" alt="">
+                                </p>
+                                <div class="d-block ml-2">
+                                  <p class="top-text-data-lawyer mb-0">Lokasi</p>
+                                  <p class="number-data-lawyer blue-txt">Jakarta</p>
+                                </div>
+                              </div>
+                              <!-- pengalaman dan lokasi lawyer -->
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <ul class="nav nav-pills nav-fill mt-4">
+                        <li class="nav-item item-data-lawyer">
+                          <a class="nav-link item-detail active" data-toggle="pill" href="#pills-home"  aria-controls="pills-home">Tentang</a>
+                        </li>
+                        <li class="nav-item item-data-lawyer">
+                          <a class="nav-link item-detail" data-toggle="pill" href="#pills-profile" aria-controls="pills-profile">Ulasan&nbsp;<span class="dif-color">2</span></a>    
+                        </li>
+                      </ul>
+
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel">
+                          <div class="container">
+                            <!-- spealisasi -->
+                            <p class="search-text-lawyer mb-2">Spealisasi</p>
+                            <button class="btn btn-outline-secondary btn-spealisasi btn-sm">Pidana</button>
+                            <button class="btn btn-outline-secondary btn-spealisasi btn-sm">Perceraian</button>
+                            <button class="btn btn-outline-secondary btn-spealisasi btn-sm">Perdata</button>
+                            <button class="btn btn-outline-secondary btn-spealisasi btn-sm">Hak Kekayaan intelektual</button>
+                            <button class="btn btn-outline-secondary btn-spealisasi btn-sm">Akuisisi</button>
+                            <button class="btn btn-outline-secondary btn-spealisasi btn-sm">Keuangan</button>
+                            <button class="btn btn-outline-secondary btn-spealisasi btn-sm">Kontrak</button>
+                            <!-- spealisasi -->
+
+                            <!-- deskripsi -->
+                            <p class="search-text-lawyer mb-2">Deskripsi</p>
+                            <p class="lawyer-profile">Fajar Romy Gumilar S.H, merupakan lulusan Fakultas Hukum Universitas Negeri Semarang. Romy merupakan seorang advokat yang tergabung dalam Perhimpunan Advokat Indonesia (PERADI) <a href="">Lihat lebih...</a></p>
+                            <!-- deskripsi -->
+
+                            <!-- firma hukum -->
+                            <p class="search-text-lawyer mb-2">Firma Hukum</p>
+                            <p class="lawyer-profile">ANC & CO (Advocates & Solicitors)</p>
+                            <!-- firma hukum -->
+
+                            <!-- pengalaman -->
+                            <p class="search-text-lawyer mb-2">Pengalaman</p>
+                            <p class="lawyer-profile">5 Tahun</p>
+                            <!-- pengalaman -->
+
+                            <!-- pengalaman -->
+                            <p class="search-text-lawyer mb-2">Pendidikan</p>
+                            <div class="d-flex">
+                              <p class="lawyer-profile">
+                                <i class="fas fa-circle"></i>
+                              </p>
+                              <p class="lawyer-profile">Universitas Sultan Ageng Tirtayasa<br><span>S1 Hukum</span></p>
+                            </div>
+                            <!-- pengalaman -->
+
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel">
+                          <div class="container">
+                            ...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- batas-card-atas -->
+
+                  <div class="card backup-detail-pengacara">
+                    <div class="card-body txt-cntr-xs">
+                      <p class="rate-price-lawyer mb-0 cs-fsz-bottom-card mt-2">
+                        <span class="disc-price">Rp 300.000</span>
+                        <span>Gratis!</span>
+                        <a href=""  class="btn btn-primary btn-kirim conf-btn">
+                          Konsultasi
+                          <span class="badge badge-primary">
+                            <i class="fas fa-arrow-right"></i>
+                          </span>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  </html>

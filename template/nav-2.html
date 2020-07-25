@@ -1,0 +1,168 @@
+<nav class="navbar navbar-expand-lg navbar-light set-navbar-xs nav-2 fixed-top">
+  <div class="container cont-nav">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo-brand.png" height="29" alt="">
+    </a>
+
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>       
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item active">
+          <a class="nav-link menu-list-item" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown menu-list-item">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Layanan
+          </a>
+          <div class="dropdown-menu   animate slideIn" aria-labelledby="navbarDropdown">
+
+           <!-- dropdown item -->
+           <a class="dropdown-item" href="konsultasi-hukum.html">
+            <img src="images/konsultasi-hukum.svg" class="img-icon-dropdown" alt="">
+            <span class="backup-content-dropdown">
+              <span class="title-content-dropdown">Konsultasi hukum</span>
+              <span class="sub-content-dropdown d-none d-sm-block">Temukan pengacara yang cocok buatmu</span>
+            </span>
+          </a>
+          <!-- dropdown item -->
+
+          <!-- dropdown item -->
+          <a class="dropdown-item" href="#">
+            <img src="images/smart-contract.svg" class="img-icon-dropdown" alt="">
+            <span class="backup-content-dropdown">
+              <span class="title-content-dropdown">Smart Contract</span>
+              <span class="sub-content-dropdown d-none d-sm-block">Bikin kontrak mudah, tak perlu repot-repot</span>
+            </span>
+          </a>
+          <!-- dropdown item -->
+
+          <!-- dropdown item -->
+          <a class="dropdown-item" href="#">
+            <img src="images/kamus-hukum.svg" class="img-icon-dropdown" alt="">
+            <span class="backup-content-dropdown">
+              <span class="title-content-dropdown">Kamus Hukum</span>
+              <span class="sub-content-dropdown d-none d-sm-block">Kata kata hukum susah dipelajari? Ah, kata siapa. Buka aja kamus hukum ini</span>
+            </span>
+          </a>
+          <!-- dropdown item -->
+        </div>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link menu-list-item" href="faq.html">FAQ</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link menu-list-item" href="tentang-kami.html">Tentang Kami</a>
+      </li>
+
+      <li class="nav-item active">   
+        <a class="nav-link menu-list-item" href="hubungi-kami.html">Hubungi Kami</a> 
+      </li>
+    </ul>
+
+    <ul class="navbar-nav ml-auto">
+     <a class="nav-link btn btn-success" type="button" href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modal">Masuk</a> 
+     <a class="nav-link btn btn-success use-bg-btn" type="button" href="#" class="btn btn-primary" data-toggle="modal" data-target="#login-modal">Daftar</a> 
+   </ul>
+
+ </div>
+</div>
+</nav>
+
+
+<!-- popup untuk login dan register -->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="login-modalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content backup-login-popup">
+      <div class="modal-header head-login-popup">
+        <h5 class="modal-title" id="login-modalLabel"><img src="images/logo-head-modal.svg" height="27" alt=""></h5>
+        <a type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </a>
+      </div>
+      <div class="modal-body no-padding">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item item-data-login no-padding">
+            <a class="nav-link login-text active" data-toggle="pill" href="#login-tab"  aria-controls="login-tab">Login</a>
+          </li>
+          <li class="nav-item item-data-login no-padding">
+            <a class="nav-link login-text" data-toggle="pill" href="#register-tab" aria-controls="register-tab">Register</a>    
+          </li>
+        </ul>
+
+        <!-- tab-login -->
+        <div class="tab-content" id="tes">
+          <div class="tab-pane fade show active" id="login-tab" role="tabpanel">
+            <div class="container backup-popup-login">
+              <form action="" method="">
+
+                <div class="form-group">
+                  <label class="popup-login-label" for="">Nama Anda</label>
+                  <input type="text" class="form-control login-popup-form" id=""  placeholder="Nama Lengkap...">
+                </div>
+
+                <div class="form-group">
+                  <label class="popup-login-label" for="">Password</label>
+                  <div class="input-group" id="show_hide_password">
+                    <input class="form-control login-popup-form" type="password" placeholder="Password...">
+                    <div class="input-group-addon btn btn-light btn-password">
+                      <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                    </div>
+                  </div>
+                  <small class="form-text forgot-pass"><a href="#">Lupa password ?</a></small>
+                </div>
+
+                <button type="button" class="btn btn-primary btn-log-popup btn-block">Login</button>
+                <button type="button" class="btn btn-primary btn-log-popup btn-block">
+                  <img src="images/g-icon.png" alt="">&nbsp;Masuk dengan Google
+                </button>
+              </form>
+
+              <p class="text-center">
+                <a href="https://play.google.com/store/apps/details?id=com.heylaw&hl=en" target="_blank">
+                  <img src="images/playstore.png" class="img-about-app img-about-app mt-4 mb-3" alt="">
+                </a>
+              </p>
+            </div>
+          </div>
+          <!-- tab-login -->
+
+          <!-- tab untuk register -->
+          <div class="tab-pane fade" id="register-tab" role="tabpanel">
+            <div class="container">
+              ...
+            </div>
+          </div>
+          <!-- tab untuk register -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- popup untuk login dan register -->
+
+<script>
+  $(document).ready(function() {
+    $("#show_hide_password a").on('click', function(event) {
+      event.preventDefault();
+      if($('#show_hide_password input').attr("type") == "text"){
+        $('#show_hide_password input').attr('type', 'password');
+        $('#show_hide_password i').addClass( "fa-eye-slash" );
+        $('#show_hide_password i').removeClass( "fa-eye" );
+      }else if($('#show_hide_password input').attr("type") == "password"){
+        $('#show_hide_password input').attr('type', 'text');
+        $('#show_hide_password i').removeClass( "fa-eye-slash" );
+        $('#show_hide_password i').addClass( "fa-eye" );
+      }
+    });
+  });
+</script>

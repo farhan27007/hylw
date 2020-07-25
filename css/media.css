@@ -1,0 +1,192 @@
+@media(max-width: 990px) {
+	.menu-list-item:hover:after,
+	.menu-list-item:active:after,
+	.menu-list-item:focus:after {
+		border-bottom: none;
+	}
+	.nav-link:hover,.nav-link:focus,.nav-link:active {
+		color: #32D321 !important;
+	}
+}
+@media(max-width: 780px) {
+	
+	/* nav */
+	.set-navbar-xs {
+		padding-bottom: 14px;
+	}
+	.nav-link {
+		margin-left: 5px;
+	}
+	.nav-link:hover,.nav-link:focus,.nav-link:active {
+		color: #32D321 !important;
+	}
+	.navbar-nav {
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+	.ml-auto {
+		margin-top: 0px;
+	}
+	.menu-list-item:hover:after,
+	.menu-list-item:active:after,
+	.menu-list-item:focus:after {
+		border-bottom: none;
+	}
+	/* nav */
+
+	/* dropdown settings */
+	.dropdown-menu {
+		padding: .5rem 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		margin-top: 6px;
+		border: 1px solid #ABABAB;
+	}
+	.backup-content-dropdown {
+		margin-left: 18px;
+		margin-top: 15px;
+	}
+	.img-icon-dropdown {
+		margin-bottom: 10px;
+		width: 50px;
+		height: 50px;
+	}
+	.title-content-dropdown {
+		font-size: 16.5px;
+	}
+	/* dropdown settings */
+	
+	/* about */
+	.mt-about {
+		margin-top: 110px;
+	}
+	.cont-about,.cont-footer {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.title-about {
+		font-size: 30px;
+		line-height: 1.4;
+		margin-top: 10px;
+	}
+	.content-about {
+		font-size: 15.3px;
+		line-height: 1.7;
+	}
+	.img-about-app {
+		margin-top: 16.5px;
+
+	}
+	/* about */
+
+	/* services */
+	.backup-card {
+		padding-bottom: 75px;
+	}
+	.services-card {
+		margin-bottom: 30px;
+	}
+	.name-services {
+		margin-top: 6px;
+		margin-left: 15px;
+	}
+	.text-card-content {
+		margin-top: 10px;
+	}
+	/* services */
+
+	
+
+	/* product */
+	.title-product {
+		font-size: 33.5px;
+		line-height: 1.4;
+	}
+	/* product */
+
+	/* hubungi-kami */
+	.set-mt-contact {
+		margin-top: 10px;
+	}
+	.crd-contact {
+		margin-top: 30px;
+	}
+	/* hubungi-kami */
+
+	/* promotion app */
+	.promotion-app {
+		margin-top: 110px;
+	}
+	.img-hp {
+		margin-top: -230px;
+	}
+	.backup-promotion-app-text {
+		display: block !important;
+	}
+	.promotion-app-text {
+		text-align: center;
+		font-size: 29px;
+		margin-top: 50px;
+		line-height: 1.5;
+	}
+	.txt-app {
+		margin-bottom: 7px !important;
+	}
+	.mt-no-xs {
+		margin-top: 0px !important;
+		padding-bottom: 30px;
+	}
+	/* promotion app */
+
+	/* footer */
+	.cr-footer {
+		margin-top: 18px;
+	}
+	/* footer */
+
+
+	/* ------------ halaman lain ---------- */
+
+	/* halaman hubungi kami */
+	.backup-contact-form {
+		margin-bottom: 20px;
+	}
+	/* halaman hubungi kami*/
+
+	/* halaman tentang kami */
+	.bgimage-about, .bgimage-faq {
+		-webkit-background-size: cover;
+		background-size: cover;
+		height: 250px;
+	}
+	.custom-fsz {
+		text-align: center;
+		margin-top: 125px !important;
+		font-size: 30px !important;
+	}
+	/* halaman tentang kami */
+
+	/* halaman faq */
+	.mt-faq-list {
+		margin-top: 50px !important;
+		padding-bottom: 25px;
+	}
+	/* halaman faq */
+
+	/* halaman profile */
+	.backup-form-profile {
+		margin-top: 55px;
+	}
+	/* halaman profile */
+
+	/* ------------ halaman lain ---------- */	
+}
+
+
+@media (max-width: 750px) {
+	.bg-backup-circle {
+		-webkit-background-size: 85% !important;
+		background-size: 85% !important;
+	}
+
+}
