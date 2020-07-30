@@ -197,7 +197,7 @@
 	/* chat-sc */
 	.cht-sc {
 		overflow-y: auto;
-		height: 350px;
+		height: auto;
 	}
 	/* chat-sc */
 	/* down-foot */
