@@ -1,0 +1,101 @@
+  <!Doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Chat - HeyLaw</title>
+    <link rel="icon" type="image/png" href="images/logogram.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/other-page.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>   
+  </head>
+
+  <body class="grey-body">
+
+    <script>
+      $(function() {
+        $("#nav").load("template/nav.html");
+        $("#step-konsultasi").load("template/step-konsultasi.html");
+      });
+    </script>
+
+    <div id="nav"></div>
+
+    <div class="container cont-about mt-95">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="konsultasi-hukum.html">Konsultasi hukum</a></li>
+          <li class="breadcrumb-item"><a href="#">Pembayaran</a></li>
+          <li class="breadcrumb-item"><a href="chat.html">Chat</a></li>
+        </ol>
+      </nav>
+    </div>
+
+    <div class="wrapper d-flex flex-column" style="min-height: calc(100vh);">
+      <section class="main d-flex flex-grow-1">
+        <div class="container-fluid">
+          <div class="row" style="height:100%;">
+            <div class="col-lg-6 col-md-6 col-sm-6 langkah-konsultasi d-none d-sm-block">
+              <div id="step-konsultasi"></div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 konsul-grid">
+              <!-- container-search -->
+              <div class="container-fluid no-padding">       
+                <div class="container top-head-chat-lw no-bxsh"> 
+
+                  <div class="row m-0">
+                    <div class="col-10 d-flex">
+                      <p class="mb-0">
+                        <img src="images/foto-lawyer/fajar-romy.png" class="img-lawyer" alt="">
+                      </p>
+                      <div class="backup-chat-top d-block">
+                        <p class="circle online-chat-lw"></p>
+                        <p class="chat-name-lawyer mb-0">Fajar Romy Gumilar, S.H.</p>
+                        <p class="online-text mb-0">Online</p>
+                      </div>
+                    </div>
+                    <div class="col-2">
+                      <p class="mt-4" align="center">
+                        <a href=""><i class="fas fa-ellipsis-v"></i></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="col-12">
+
+                    <!-- chat-card -->
+                    
+                    <!-- chat-card -->
+
+                  </div>
+                </div>
+
+                <!--  -->
+                <div class="container top-head-chat-lw fix-btm"> 
+                  <div class="input-group">
+                    <input type="text" class="form-control transparent-form" placeholder="Mulai percakapan disini..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-success btn-send-chat" type="button"><i class="fas fa-paperclip"></i></button>
+                      <button class="btn btn-outline-primary btn-send-chat" type="button"><img src="images/send-chat.svg" alt=""></button>
+                    </div>
+                  </div>
+                </div>
+                <!--  -->
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  </html>

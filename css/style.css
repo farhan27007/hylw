@@ -219,6 +219,34 @@
 }
 /* settings profile dropdown */
 
+/* settings end session dropdown */
+.drop-end-session {
+  margin-left: -110px;
+  margin-top: 45px;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 20px;
+}
+.item-drop-end-session,.item-drop-end-session:hover,.item-drop-end-session:focus {
+  font-family: mont;
+  font-size:14px;
+  color:#E62968;
+}
+.dop-icon {
+  color: #c4c4c4;
+  padding: 8px 13px;
+  border-radius: 100%;
+}
+.dop-icon:hover,.dop-icon:focus,.dop-icon:active {
+  background: #F1F3F5;
+  transition: all 0.2s ease-in-out;
+}
+.tg-end-session:after {
+  display: none !important;
+}
+/* settings end session dropdown */
+
 /* about text */
 .cont-about {
   margin-top: 77px;

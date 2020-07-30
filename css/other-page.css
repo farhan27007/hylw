@@ -271,7 +271,6 @@ textarea.form-control{
 .langkah-konsultasi {
   background-color: #32D320;
 }
-
 .konsul-title {
   margin-top: 30px;
   margin-bottom: 25px;
@@ -297,14 +296,12 @@ textarea.form-control{
 .transparent-form::-webkit-input-placeholder {
   color: #ABABAB;
 }
-.input-group>.input-group-append>.btn {
-  border-radius: 5px !important;
-}
 .btn-search{
   background-color: #338FFA;
   color: #fff;
   padding-right: 15px;
   padding-left: 15px;
+  border-radius: 5px !important;
 }
 .search-text-lawyer {
   font-family: pop-sembold;
@@ -767,8 +764,8 @@ textarea.form-control{
   .nav-pills .item-detail, .nav-pills .show>.item-detail:after {
     width: 100%;
   }
-  .conf-btn {
-    float: none;
+  .conf-btn,.conf-btn:focus,.conf-btn:active {
+    float: none !important;
     margin-top: 20px;
   }
   .txt-cntr-xs {
@@ -864,3 +861,188 @@ textarea.form-control{
   font-family: nunito;
 }
 /* popup modal login dan register */
+
+/* halaman chat  */
+.backup-chat-top{
+  margin: 16px 8px;
+}
+.top-head-chat-lw {
+  background-color: #fff;
+  padding: 6px 10px;
+  -webkit-box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+}
+.no-bxsh {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.chat-name-lawyer {
+  font-family: pop-sembold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #16284C;
+}
+.online-chat-lw {
+  bottom: inherit;
+  top: 46px;
+}
+.backup-card-chat-lw {
+  background-color: transparent;
+  border:none;
+  margin-bottom: 30px;
+}
+.backup-card-chat-lw:first-child {
+  margin-top: 40px;
+}  
+.body-card-chat-lw {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.blue-card, .blue-card p {
+  background: #338FFA;
+  color: #fff !important;
+}
+.one-text-lawyer {
+  font-family: nunito;
+  font-size: 13.5px;
+  color: #1B1B1B;
+}
+.log-time {
+  margin-top: 9px;
+  font-family: nunito;
+  font-size: 10px;
+  line-height: 11px;
+  color: #C4C4C4;
+}
+.log-time img {
+  margin-left: 5px;
+}
+.fix-btm {
+  padding: 11px 16px;
+  position: fixed;
+  width: 50%;
+  bottom: 0;
+}
+.btn-send-chat {
+  background-color: transparent;
+  border: none;
+  border-radius: 100% !important;
+  margin: 5px;
+}
+.btn-send-chat:hover,.btn-send-chat:focus,.btn-send-chat:active {
+  background-color: rgba(51, 143, 250, 0.3);
+}
+.btn-send-chat:first-child {
+  color: #32D320;
+}
+.btn-send-chat:first-child:hover,  .btn-send-chat:first-child:focus,  .btn-send-chat:first-child:active {
+  background-color: rgba(50, 211, 32, 0.3);
+  color: #32D320;
+}
+.btn-send-chat img {
+  margin-left: 2px; 
+  margin-top: -4px;
+}
+@media (max-width: 575px) {
+  .fix-btm {
+    width: 100% !important;
+  }
+}
+/* halaman chat */
+
+/* halaman histori chat */
+.daftar-chat {
+  background-color: #fff;
+}
+.img-chat-lw{
+  width: 65px;  
+  height: 65px; 
+}
+.backup-cht-lw {
+  padding: 8px 25px;
+}
+.backup-cht-lw:hover {
+  background: #F1F3F5;
+}
+.chat-lawyer-name a {
+  font-family: pop-sembold;
+  color: #16284C;
+  font-size: 15px;
+}
+.chat-lawyer-name a:hover,.chat-lawyer-name a:focus, .chat-lawyer-name a:active {
+  color: #32D320 !important;
+  transition: all 0.2s ease-in-out;
+  text-decoration:none;
+}
+.isi-chat-lw {
+  margin-top: 6.5px;
+  font-family: nunito;
+  font-size: 14px;
+  color: #ABABAB;
+}
+.f-12 {
+  float: right;
+  font-size: 12px;
+  margin-top: 4px;  
+}
+.online-chat {
+  bottom: 17px;
+  left: 70px;
+}
+.border-bb-chat {
+  border-bottom:1px solid #F1F3F5;
+  margin-top: -2px;
+}
+.notif-number {
+  background: #32D320;
+  width: 19px;
+  height: 19px;
+  padding: 5px;
+  border-radius: 100%;
+}
+@media(max-width: 1093px) {
+  .online-chat {
+    bottom:17px;
+  }
+}
+@media (max-width: 720px) {
+  .online-chat {
+    bottom:16px;
+  }
+  .chat-lawyer-name a {
+    font-size: 14px;
+  }
+}
+/* halaman histori chat */
+
+/* halaman konsultasi hukum */
+.y-scroll {
+  overflow-y: scroll;
+}
+.pad-std {
+  padding: 0px 30px;
+}
+.mt-10 {
+  margin-top: -10px;
+}
+.cht-sc {
+  overflow-y: auto;
+  height: 400px;
+}
+.backup-down-txt {
+  padding: 20px 18px;
+}
+.down-txt {
+  font-family: Nunito;
+  font-size: 15.5px;
+  margin-right: 10px;
+  margin-top: 7px;
+  color: #ABABAB;
+}
+.btn-down {
+  font-family: nunito;
+}
+/* halaman konsultasi hukum */

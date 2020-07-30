@@ -54,8 +54,21 @@
 	.title-content-dropdown {
 		font-size: 16.5px;
 	}
+	.item-menu-profile {
+		padding-left: 10px; 	
+	}
 	/* dropdown settings */
-	
+	.drop-end-session {
+		margin-top: 0px !important;
+		margin-left: -130px !important;
+		border: none;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 20px;
+		box-shadow: rgba(0, 0, 0, 0.06) 0px 6px 20px;
+	}
+	/* dropdown end session */
+
+	/* dropdown end session */
+
 	/* about */
 	.mt-about {
 		margin-top: 110px;
@@ -180,6 +193,21 @@
 	/* halaman profile */
 
 	/* ------------ halaman lain ---------- */	
+
+	/* chat-sc */
+	.cht-sc {
+		overflow-y: auto;
+		height: 350px;
+	}
+	/* chat-sc */
+	/* down-foot */
+	.backup-down-txt {
+		padding: 9px 18px !important;
+	}
+	.btn-down {
+		margin-top: 10px;
+	}
+	/* down-foot */
 }
 
 
