@@ -1,4 +1,4 @@
-/* halaman hubungi kami */
+/* halaman hubungi kami */ 
 .mt-115 {
   margin-top: 115px;
 }
@@ -1045,4 +1045,200 @@ textarea.form-control{
 .btn-down {
   font-family: nunito;
 }
+
 /* halaman konsultasi hukum */
+
+/* scroll */
+#chat-scroll::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background-color: #fefefe;
+}
+
+#chat-scroll::-webkit-scrollbar
+{
+  width: 6px;
+  height: 4px;
+  background-color: #fefefe;
+}
+
+#chat-scroll::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #32D320;
+}
+/* scroll */
+
+/* kamus hukum */
+.bg-kamus-hukum {
+  background-color: #F7FAFE;
+}
+.list-kamus a:hover,.list-kamus a:focus {
+  color: #672CFF !important;
+}
+.bgimage-kamus-hukum {
+  width: 100%;
+  background-color: #672CFF;
+  height: 560px;
+}
+.btn-alphabet {
+  border: 1px solid #FFFFFF;
+  color: #fff;
+  border-radius: 5px;
+  font-family: pop-sembold;
+  font-size: 22px;
+  margin: 3px;
+  margin-bottom: 14px;
+  padding: 8px 20px;
+}
+.btn-alphabet:hover,.btn-alphabet:focus,.btn-alphabet:active {
+  background-color:  #338FFA;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #338ffa;
+  color: #fff;
+}
+.backup-bg-kamus-hukum {
+  background-image: url('../images/union.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 56px;
+}
+.title-kamus-hukum {
+  margin-top: 38px;
+  font-family:pop-sembold;
+  font-size:42px;
+  color: #fff;
+}
+.sub-title-kamus-hukum {
+ margin-top: 14px;
+ margin-bottom: 30px;
+ font-family: Nunito;
+ font-size: 18px;
+ color: #FFFFFF;
+}
+.search-kamus-hukum {
+  width: 75%;
+  padding: 9px 18px;
+  border-radius: 6px;
+}
+.search-alphabet {
+  font-family: pop-sembold;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-top: 38px;
+  margin-bottom: 19px;
+}
+.title-kata-awal {
+  font-family: pop-sembold;
+  font-size: 17px;
+  color: #16284C;
+}
+.title-kata-awal span {
+  margin-left: 5px;
+  color: #338ffa;
+}
+.card-kata {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.card-kata a,.card-kata a:hover,.card-kata a:focus,.card-kata a:active{
+ font-family: pop-med;
+ font-weight: 100;
+ font-size: 18px;
+ color: #16284C;
+ text-decoration: none;
+}
+.icon-kata {
+  color: #338ffa;
+  background: rgba(51, 143, 250, 0.3);
+  padding: 10px 11px;
+  border-radius: 100%;
+  margin-top: -4px;
+}
+.bg-33 {
+  background: #338ffa !important;
+}
+.page-item {
+  margin: 5px;
+}
+.page-link {
+  color: #c4c4c4;
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  font-family: pop-med;
+  font-size: 14px;
+  padding: 11px 14px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.page-link:hover,.page-link:focus,.page-link:active {
+  background: #338ffa;
+  border: 1px solid #338ffa;
+  transition: all 0.2s ease-in-out;
+  color: #fff;
+}
+.cursor-kata {
+  border: 1px solid #338ffa;
+  color: #338ffa;
+}
+.cursor-kata:hover,.cursor-kata:focus,.cursor-kata:active {
+  border: 1px solid #c4c4c4;
+  background-color: #c4c4c4;
+  color: #fff;
+}
+.box-top-kata {
+  margin-top: 14px;
+  font-family: pop-sembold;
+  color: #16284C;
+}
+.arti-top-kata {
+  font-family: Nunito;
+  font-size: 13px;
+  color: #ABABAB;
+}
+.btn-more-kata {
+  font-size: 17px;
+  font-family: nunito;
+  padding: 14px;
+  color: #338ffa;
+  border: 1px solid #338ffa;
+}
+.btn-more-kata:hover,.btn-more-kata:focus,.btn-more-kata:active {
+  background-color: #338ffa;
+  color: #fff;
+}
+/* kamus hukum */
+
+/* definisi kamus hukum */
+.icon-star-def {
+  background: rgba(251, 188, 5, 0.4);
+  color: rgba(251, 188, 5, 1);
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 4px;
+}
+.title-def {
+  font-family: pop-sembold;
+  font-size: 32px;
+  color: #338ffa;
+  margin-top: -28px;
+}
+.sub-title-def {
+  font-family: pop-sembold;
+  font-size: 17px;
+  color: #16284c;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.arti-kata-def {
+  font-family: mont-regular;
+  font-size: 18.5px;
+  color: #16284c;
+}
+.sumber-def {
+  font-family: mont-regular;
+  font-size: 14px;
+  color: #16284c;
+}
+/* definisi kamus hukum */

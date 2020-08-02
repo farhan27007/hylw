@@ -192,6 +192,57 @@
 	}
 	/* halaman profile */
 
+	/* halaman kamus hukum */
+	.bgimage-kamus-hukum {
+		height: 500px;
+	}
+	.search-kamus-hukum {
+		width: 100% !important;
+	}
+	.scrollmenu {
+		overflow-x: auto;
+		overflow-y: hidden;
+		white-space: nowrap;
+		margin-bottom: 15px;
+	}
+	.chat-xs {
+		top: 46px;
+		bottom: 0;
+	}
+	.title-kamus-hukum {
+		font-size: 37px;
+	}
+	.sub-title-kamus-hukum {
+		font-size: 17px;
+	}
+	.btn-alphabet {
+		font-size: 17px;
+		padding: 8px 15px;
+	}
+	.title-kata-awal {
+		margin-top: 28px;
+	}
+	.xs-set-box-kata {
+		display: block !important;
+	}
+	.arti-top-kata {
+		font-size: 14.5px;
+		margin-bottom: 5px;
+	}
+	.icon-kata-set-xs {
+		float: none !important;
+	}
+	.mt-set-xs{
+		margin-top: 40px;
+	}
+	.title-def {
+		font-size: 29px;
+	}
+	.arti-kata-def {
+		font-size: 15.5px;
+	}
+	/* halaman kamus hukum */
+
 	/* ------------ halaman lain ---------- */	
 
 	/* chat-sc */
