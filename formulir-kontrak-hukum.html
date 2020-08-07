@@ -1,0 +1,382 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Formulir kontrak hukum - HeyLaw</title>
+  <link rel="icon" type="image/png" href="images/logogram.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/other-page.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="datepicker/datepicker.min.css">
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>        
+
+</head>
+<body class="grey-body">
+  <script>
+    $(function() {
+      $("#nav-2").load("template/nav-2.html");
+      $("#footer").load("template/footer.html");
+    });
+  </script>
+
+  <div id="nav-2"></div>
+
+  <div class="container cont-about mt-95">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item list-smart-contract"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item list-smart-contract"><a href="kontrak-hukum.html">Kontrak Hukum</a></li>
+        <li class="breadcrumb-item list-smart-contract"><a href="detail-kontrak-hukum.html">Detail kontrak hukum</a></li>
+        <li class="breadcrumb-item list-smart-contract"><a href="formulir-kontrak-hukum.html">Formulir kontrak hukum</a></li>
+      </ol>
+    </nav>
+  </div>
+
+  <div class="container-fluid bg-kamus-hukum">
+    <div class="row">
+
+      <!-- box perjanjian -->
+      <div class="col-lg-5 col-md-5">
+        <div class="card backup-detail-pengacara mt-4">
+          <div class="card-header head-detail-lawyer head-smart-contract">
+            <div class="row">
+              <div class="col-lg-3 col-md-12"></div>
+              <div class="col-lg-7 col-md-12 no-padding">
+                <p class="name-detail-lawyer mb-0 title-sct">Perjanjian kerja</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-body cr-body-detail-pengacara">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-12">
+                  <div class="backup-data-smart-contract text-center">
+                   <img src="images/icon-kontrak/icon-kerja-sama.svg" class="icon-smart-contract icon-detail-sct" alt="">
+                 </div>
+               </div>
+               <div class="col-lg-6 col-md-12 no-padding set-padding">
+                <p class="mb-0 fsz-13 mt-1 sub-title-sct">Kontrak hukum</p>
+              </div>
+            </div>
+          </div>
+          <ul class="nav nav-pills nav-fill mt-4">
+            <li class="nav-item item-data-lawyer">
+              <a class="nav-link item-detail active" data-toggle="pill" href="#pills-deskripsi-sct"  aria-controls="pills-deskripsi-sct">Deskripsi</a>
+            </li>
+            <li class="nav-item item-data-lawyer">
+              <a class="nav-link item-detail" data-toggle="pill" href="#pills-des-sct" aria-controls="pills-des-sct">Bantuan</a>    
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-deskripsi-sct" role="tabpanel">
+              <div class="container">
+
+                <!-- deskripsi -->
+                <p class="lawyer-profile mt-5 detail-sct-content">Kontrak kerja/Perjanjian kerja adalah suatu perjanjian antara pekerja dan pengusaha secara lisan dan/atau tulisan, baik untuk waktu tertentu yang memuat syarat-syarat kerja, hak dan kewajiban pekerja dan perusahaan.</p>
+                <!-- deskripsi -->
+
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-des-sct" role="tabpanel">
+              <div class="container-fluid">
+                ...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- batas-card-atas -->
+      <div class="card backup-detail-pengacara w-100">
+        <div class="card-body txt-cntr-xs">
+          <p class="rate-price-lawyer mb-0 cs-fsz-bottom-card mt-2" align="left">
+            <span class="disc-price td-none">Harga</span>
+            <span class="float-right">Rp 200.000</span>
+          </p>
+        </div>
+      </div>
+      <!-- batas-card-atas  -->
+    </div>
+    <!-- box perjanjian -->
+
+    
+
+    <!-- form step formulir -->
+    <div class="col-lg-7 col-md-7 col-sm-6 mb-5 pb-4">
+
+      <div class="card backup-detail-pengacara mt-4" id="myDIV">
+
+        <div class="card-header head-detail-lawyer head-smart-contract no-bg-formulir">
+          <p class="name-detail-lawyer mb-0 title-sct">Formulir perjanjian kerja</p>  
+        </div>
+
+        <div class="card-body cr-body-detail-pengacara pad-15">
+
+          <div class="scrollmenu" id="chat-scroll">
+            <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+              <li class="nav-item xs-layout-item-nav">
+                <a class="nav-link step-kontrak ml-0 active d-flex" id="pihak-pertama-tab" data-toggle="pill" href="#pihak-pertama" role="tab" aria-controls="pihak-pertama" aria-selected="true">
+
+                  <button class="btn tes-bt act-btn">1</button>
+                  <span class="sub-span-step">Pihak <br>Pertama</span></a>
+
+                </li>
+
+                <li class="nav-item xs-layout-item-nav">
+                  <a class="nav-link step-kontrak ml-0 d-flex" id="pihak-kedua-tab" data-toggle="pill" href="#pihak-kedua" role="tab" aria-controls="pihak-kedua" aria-selected="false">
+
+                    <button class="btn tes-bt">2</button>
+                    <span class="sub-span-step">Pihak <br>Kedua</span></a>
+
+                  </a>
+                </li>
+
+                <li class="nav-item xs-layout-item-nav">
+                  <a class="nav-link step-kontrak  ml-0 d-flex" id="perjanjian-kerja-tab" data-toggle="pill" href="#perjanjian-kerja" role="tab" aria-controls="perjanjian-kerja" aria-selected="false">
+
+                    <button class="btn tes-bt">3</button>
+                    <span class="sub-span-step">Perjanjian <br>kerja</span></a>
+
+                  </a>
+                </li>
+
+                <li class="nav-item xs-layout-item-nav">
+                  <a class="nav-link step-kontrak ml-0 d-flex" id="perjanjian-kerja-tab" data-toggle="pill" href="#perjanjian-kerja" role="tab" aria-controls="perjanjian-kerja" aria-selected="false">
+
+                   <button class="btn tes-bt">4</button>
+                   <span class="sub-span-step">Pilih <br>Pembayaran</span></a>
+
+                 </a>
+               </li>
+             </ul>
+           </div>
+           <div class="tab-content" id="pills-tabContent">
+
+            <!-- pihak pertama -->
+            <div class="tab-pane fade show active" id="pihak-pertama" role="tabpanel" aria-labelledby="pihak-pertama-tab">
+              <p class="search-text-lawyer">Pihak pertama 
+                <span class="green-text float-right">Pemberi kerja</span>
+              </p>
+              <form action="">
+
+                <div class="form-group">
+                  <input type="text" class="form-control form-formulir-kontrak-hukum"  placeholder="Nama Lengkap...">
+                </div>
+
+                <div class="input-group mb-4">
+                  <input type="text" class="form-control form-formulir-kontrak-hukum" placeholder="Tempat tinggal / cari kota atau kabupaten...">
+                  <div class="input-group-append">
+                    <span class="input-group-text group-formulir-kontrak"><i class="fas fa-search"></i></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input type="number" class="form-control form-formulir-kontrak-hukum"  placeholder="Kode pos...">
+                </div>
+
+                <div class="form-group">
+                  <textarea class="form-control form-formulir-kontrak-hukum" rows="6" placeholder="Alamat.."></textarea>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" class="form-control form-formulir-kontrak-hukum" placeholder="Pekerjaan...">
+                </div>
+
+                <button type="button" class="btn btn-primary btn-kirim mb-5" >
+                  Selanjutnya<span class="badge badge-primary"><i class="fas fa-arrow-right"></i></span>
+                </button>
+
+              </form>
+            </div>
+            <!-- pihak pertama -->
+
+            <!-- pihak kedua -->
+            <div class="tab-pane fade" id="pihak-kedua" role="tabpanel" aria-labelledby="pihak-kedua-tab">
+              <p class="search-text-lawyer">Pihak kedua 
+                <span class="blue-txt float-right">Pekerja</span>
+              </p>
+              <form action="">
+
+                <div class="form-group">
+                  <input type="text" class="form-control form-formulir-kontrak-hukum" placeholder="Nama Lengkap...">
+                </div>
+
+                <div class="input-group mb-4">
+                  <input type="text" class="form-control form-formulir-kontrak-hukum" placeholder="Tempat tinggal / cari kota atau kabupaten...">
+                  <div class="input-group-append">
+                    <span class="input-group-text group-formulir-kontrak"><i class="fas fa-search"></i></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input type="number" class="form-control form-formulir-kontrak-hukum" placeholder="Kode pos...">
+                </div>
+
+                <div class="form-group">
+                  <textarea class="form-control form-formulir-kontrak-hukum" rows="6" placeholder="Alamat.."></textarea>
+                </div>
+
+                <div class="form-group">
+                  <input type="text" class="form-control form-formulir-kontrak-hukum" placeholder="Pekerjaan...">
+                </div>
+
+                <button type="button" class="btn btn-primary btn-kirim mb-5" >
+                  Selanjutnya<span class="badge badge-primary"><i class="fas fa-arrow-right"></i></span>
+                </button>
+
+              </form>
+            </div>
+            <!-- pihak kedua -->
+
+            <!-- perjanjian-kerja -->
+            <div class="tab-pane fade" id="perjanjian-kerja" role="tabpanel" aria-labelledby="perjanjian-kerja-tab">
+
+              <form action="" class="mt-4">
+                <div class="row">
+
+                  <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="form-group">
+                      <label>Tanggal</label>      
+                      <div class="input-group date" data-date-format="dd.mm.yyyy">
+                        <input  type="text" class="form-control form-formulir-kontrak-hukum mb-0" placeholder="Tahun Pengundangan..">
+                        <div class="input-group-addon">
+                          <i class="far fa-calendar-alt c-icon-formulir"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="form-group">
+                      <label>Jenis Pekerjaan</label>      
+                      <input type="text" class="form-control form-formulir-kontrak-hukum" placeholder="Jenis pekerjaan..">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="form-group">
+                      <label>Lokasi</label>      
+                      <select class="custom-select choise-formulir form-control form-formulir-kontrak-hukum mb-0">
+                        <option selected>Pilih lokasi perjanjian...</option>
+                        <option>Jakarta</option>
+                        <option>Bandung</option>
+                        <option>Bali</option>
+                      </select>
+                      <span class="small-text-formulir">Lokasi tempat perjanjian dibuat 
+                        <span class="st-small-formulir">*</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="form-group">
+                      <label>Honor / Gaji</label>      
+                      <input type="number" class="form-control form-formulir-kontrak-hukum" placeholder="Jenis pekerjaan..">
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="form-group">
+                      <label>Penyelesaian sengketa</label>      
+                      <select class="custom-select choise-formulir form-control form-formulir-kontrak-hukum mb-0">
+                        <option selected>Pilih kota lokasi tempat pengadilan...</option>
+                        <option>Jakarta</option>
+                        <option>Bandung</option>
+                        <option>Bali</option>
+                      </select>
+                      <span class="small-text-formulir">Lokasi tempat pengadilan
+                        <span class="st-small-formulir">*</span>
+                      </span>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <div class="form-group">
+                      <label>Jangka waktu</label>      
+                      <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-6">
+                          <div class="input-group date" data-date-format="dd.mm.yyyy">
+                            <input  type="text" class="form-control form-formulir-kontrak-hukum mb-0" placeholder="Tanggal mulai..">
+                            <div class="input-group-addon">
+                              <i class="far fa-calendar-alt c-icon-formulir"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-6">
+                          <div class="input-group date" data-date-format="dd.mm.yyyy">
+                            <input  type="text" class="form-control form-formulir-kontrak-hukum mb-0" placeholder="Tanggal akhir..">
+                            <div class="input-group-addon">
+                              <i class="far fa-calendar-alt c-icon-formulir"></i>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-5">
+                          <label class="mt-4">Jam kerja</label>
+                          <div class="form-group backup-btn-jam-kerja">
+                            <button class="btn btn-light btn-jam-kerja">
+                              <i class="fas fa-caret-left"></i>
+                            </button>
+                            <span class="number-jam-kerja">8</span>
+                            <button class="btn btn-light btn-jam-kerja float-right">
+                              <i class="fas fa-caret-right"></i>
+                            </button>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-7">
+                          <div class="form-group mt-5">
+                            <p class="pt-4 txt-jam-kerja">Jam kerja</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="#" class="btn btn-primary btn-kirim mb-5 mt-3 btn-xs-block">
+                  Lanjutkan ke pembayaran<span class="badge badge-primary"><i class="fas fa-arrow-right"></i></span>
+                </a>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- form step formulir -->
+
+  </div>
+</div>
+
+<div id="footer"></div>
+
+</body>
+</html>
+
+
+<script>
+// Add act-btn class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("tes-bt");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("act-btn");
+    current[0].className = current[0].className.replace(" act-btn", "");
+    this.className += " act-btn";
+  });
+}
+</script>
+
+<script src="datepicker/jquery.min.js"></script>
+<script src="datepicker/datepicker.min.js"></script>
+
+<script>
+  $('.input-group.date').datepicker({format: "dd-mm-yyyy"}); 
+</script>

@@ -1,5 +1,5 @@
-/* halaman hubungi kami */ 
-.mt-115 {
+/*  halaman hubungi kami */ 
+ .mt-115 {
   margin-top: 115px;
 }
 label {
@@ -257,6 +257,7 @@ textarea.form-control{
   color: #000;
   font-family: nunito;
   text-decoration: none;
+  font-size:  15px;
 }
 .breadcrumb li a:hover,.breadcrumb li a:focus,.breadcrumb li a:active {
   color:#32D320;
@@ -557,41 +558,6 @@ textarea.form-control{
   color: #C4C4C4;
   text-decoration: line-through;
 }
-
-@media(max-width: 575px) {
-  .on-status {
-    margin-top: 5px;
-    text-align: center;
-    margin-bottom: 20px !important;
-  }
-  .set-img-xs{
-    margin-top: 20px;
-    width: 115px;
-    height: 115px;
-  }
-  .card-text {
-    font-size: 17px;
-  }
-  .online-text {
-    font-size: 14px;
-  }
-  .btn-chat {
-    padding: 13px;
-    font-size: 14.5px;
-  }
-  .lawyer-name a {
-    font-size: 14.8px;
-  }
-  .rate-price-lawyer {
-    font-size: 13px;
-  }
-  .brief-lawyer {
-    font-size: 13px;
-  }
-  .icon-star {
-    font-size: 10.6px;
-  }
-}
 /* halaman konsultasi hukum */
 
 /* halaman detail lawyer */
@@ -768,9 +734,24 @@ textarea.form-control{
     float: none !important;
     margin-top: 20px;
   }
+  .d-xs-block {
+    display: block;
+  }
   .txt-cntr-xs {
     text-align: center;
   }
+  /* dt-kontrak-hukum */
+  .backup-data-smart-contract {
+    margin-top: 20px !important;
+  } 
+  .title-sct{
+    text-align: center;
+  }
+  .sub-title-sct {
+    text-align: center;
+    padding-top: 15px;
+  }
+  /* dt-kontrak-hukum */
 }
 /* halaman detail lawyer */
 
@@ -945,11 +926,6 @@ textarea.form-control{
 .btn-send-chat img {
   margin-left: 2px; 
   margin-top: -4px;
-}
-@media (max-width: 575px) {
-  .fix-btm {
-    width: 100% !important;
-  }
 }
 /* halaman chat */
 
@@ -1242,3 +1218,365 @@ textarea.form-control{
   color: #16284c;
 }
 /* definisi kamus hukum */
+
+/* favorit kata kamus hukum */
+.bg-fav-hukum {
+  background:#FBBC05;
+  background-image: url('images/star-bg.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 40px;
+}
+.link-fav-kamus-hukum {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.07);
+  border-radius: 5px !important;
+  padding: 13.5px;
+  color: #16284c !important;
+  margin-bottom: 10px;
+  margin-left: 0;
+  font-family: pop-med;
+  font-size: 15.5px !important;
+}
+.nav-pills .link-fav-kamus-hukum.active, .nav-pills .show>.link-fav-kamus-hukum {
+  color: #fff !important;
+  background-color: #338ffa;
+}
+.delete-btn-fav {
+  font-family: nunito;
+  float: right;
+  margin-top: -6px; 
+  border: 1px solid #EC1D23;
+  color: #EC1D23;
+  border-radius: 5px;
+}
+.delete-btn-fav:hover,.delete-btn-fav:focus {
+  background-color:#EC1D23;
+  transition: all 0.2s ease-in-out; 
+}
+/* favorit kata kamus hukum */
+
+/* smart contract */
+.bc-tab-kat {
+  margin-top: -70px;
+}
+.pad-15 {
+  padding: 15px;
+}
+.bgimage-kontrak-hukum {
+  width: 100%;
+  background-color: #FF3276;
+  height: 493px;
+}
+.list-smart-contract a:hover,.list-smart-contract a:focus {
+  color: #FF3276 !important;
+}
+.sub-kontrak-hukum {
+  font-family: nunito;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+}
+.btn-kat {
+  padding: 51px;
+  height: 140px;
+  margin-left: 0 !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px !important;
+  font-family: pop-sembold;
+  font-size: 16px !important;
+  color: #fbfbfb !important;
+}
+.btn-kat:hover {
+  color: #fff !important;
+}
+.nav-pills .btn-kat.active, .nav-pills .show>.btn-kat {
+  color: #fff !important;
+  border: 3px solid #338ffa;
+}
+
+.kat-all {
+  background-image: url('../images/kat-all.jpg');
+}
+.kat-hukum {
+  background-image: url('../images/bg-kategori-kontrak.jpg');
+}
+.kat-haki {
+  background-image: url('../images/bg-kategori-haki.jpg');
+}
+.kat-perusahaan {
+  background-image: url('../images/bg-kategori-perusahaan.jpg');
+}
+
+.backup-card-smart-contract {
+  padding: 8px;
+  width: 20%;
+  flex-basis: auto;
+}
+.set-card-smc {
+  height: 280px;
+}
+.cr-smart-contract {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.title-smart-contract {
+  font-family: pop-sembold;
+  font-size: 15.5px;
+  color: #16284C;
+  padding: 0px 10px;
+}
+.icon-smart-contract {
+  width: 85px;
+  margin-top: 10px; 
+}
+.text-smart-contract {
+  margin-top: 10px;
+  font-family: nunito;
+  font-size: 14px !important;
+  padding: 0px 10px;
+}
+.btn-smart-contract,.btn-smart-contract:hover {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 16px 10px 10px;
+  border: 1px solid #338ffa;
+  text-align: inherit;
+  background: #338FFA;
+  border-radius: 0px 0px 8px 8px;
+  font-family: pop-sembold;
+  font-size: 14px;
+}
+.next-contract {
+  margin-top: -5px;
+  background: #2E81E1;
+  padding: 9px;
+  border-radius: 100%;
+  font-size: 12px;
+}
+/* smart contract */
+
+/* formulir kontrak hukum */
+.td-none {
+  text-decoration: none;
+}
+.no-bg-formulir {
+  background-image: none !important;
+}
+.sub-span-step {
+  font-size: 13.5px;
+  text-align: left;
+  margin-left: 8px;
+}
+.step-kontrak{
+  padding:  15px 0px;
+  border-bottom: 2px solid #DADADA;
+  border-radius: 0 !important;
+}
+.step-kontrak:hover {
+  color: #16284C !important;
+}
+.choise-formulir {
+  padding:7px;
+  height: 50px;
+}
+.tes-bt {
+  background: #e5e5e5;
+  border: none;
+  color:  #ABABAB;
+  padding: 8px 15px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none !important;
+}
+.act-btn,.tes-bt:hover {
+  background: rgba(255, 50, 118, 0.26) !important;
+  color: #E62968 !important;  
+}
+
+.nav-pills .step-kontrak.active, .nav-pills .show>.step-kontrak {
+  background-color: transparent;
+  border-bottom: 2px solid #E62968;
+  border-radius: 0;
+  color: #16284C !important;
+}
+.form-formulir-kontrak-hukum:focus , .form-formulir-kontrak-hukum:active {
+  border: 1.2px solid #E62968 !important;
+}
+.green-text {
+  color: #32d320;
+}
+.group-formulir-kontrak {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background-color: transparent;
+  color: #dadada;
+}
+.c-icon-formulir {
+  color: #c4c4c4;
+  background: transparent;
+  padding: 15px;
+  border: 1.2px solid #DADADA;
+  border-left: none;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+.small-text-formulir {
+  font-size: 12px;
+  font-family: nunito;
+  color: #052448;
+}
+.st-small-formulir {
+  color: #e62968;
+}
+.backup-btn-jam-kerja {
+  background: #F1F3F5;
+  border: 1px solid #DADADA;
+  border-radius: 6px;
+}
+.btn-jam-kerja,.btn-jam-kerja:hover,.btn-jam-kerja:focus{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  padding: 7px 15px;
+  border: none;
+  font-size: 17px;
+  margin: 6px;
+}
+.number-jam-kerja {
+  margin-left: 5px; 
+  margin-right: 5px;  
+  font-family:  nunito;
+  font-size:  17.5px;
+}
+.txt-jam-kerja {
+  font-family: Nunito;
+  font-size: 14px;
+}
+/* formulir kontrak hukum */
+
+/* detail kontrak hukum */
+.head-smart-contract {
+  background:  #FF3276;
+  background-image: url('../images/smart-contract-bg.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.backup-data-smart-contract {
+  margin-top: -65px;
+}
+.icon-detail-sct {
+  background: #FFFFFF;
+  border: 1px solid #DADADA;
+  border-radius: 8px;
+}
+.sub-title-sct {
+  font-family: mont-regular;
+  font-size: 13px;
+  color: #16284C;
+}
+.detail-sct-content {
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+/* detail kontrak hukum */
+
+/* media screen */
+@media (max-width: 1020px) {
+  .backup-card-smart-contract {
+    width: 25% !important;
+  }
+  .set-card-smc {
+    height: 310px !important;
+  }
+}
+@media (max-width: 790px) {
+  .backup-card-smart-contract {
+    width: 33.33% !important;
+  }
+}
+@media(max-width: 575px) {
+  .on-status {
+    margin-top: 5px;
+    text-align: center;
+    margin-bottom: 20px !important;
+  }
+  .set-img-xs{
+    margin-top: 20px;
+    width: 115px;
+    height: 115px;
+  }
+  .card-text {
+    font-size: 17px;
+  }
+  .online-text {
+    font-size: 14px;
+  }
+  .btn-chat {
+    padding: 13px;
+    font-size: 14.5px;
+  }
+  .lawyer-name a {
+    font-size: 14.8px;
+  }
+  .rate-price-lawyer {
+    font-size: 13px;
+  }
+  .brief-lawyer {
+    font-size: 13px;
+  }
+  .icon-star {
+    font-size: 10.6px;
+  }
+  .fix-btm {
+    width: 100% !important;
+  }
+  .title-smart-contract {
+    font-size: 14.5px;
+  }
+
+  /* halaman kontrak hukum */
+  .btn-kat {
+    padding: 45px 30px !important;
+  }
+  .backup-card-smart-contract {
+    width: 50% !important;
+  }
+  .set-card-smc {
+    height: 285px !important;
+  }
+  /* halaman kontrak hukum */
+}
+@media (max-width: 423px) {
+ .backup-card-smart-contract {
+    width: 100% !important;
+  } 
+}
+@media (max-width: 370px) {
+  .backup-card-smart-contract {
+    width: 100% !important;
+  }
+}
+@media (max-width: 950px) {
+ /* halaman formulir kontrak hukum */
+  .xs-layout-item-nav {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .step-kontrak {
+    border-bottom: 2px solid transparent;
+  }
+  .btn-xs-block {
+    display: block;
+    width: 100%;  
+  }
+   /* halaman formulir kontrak hukum */
+}
+/* media screen */

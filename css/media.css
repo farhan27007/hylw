@@ -243,6 +243,20 @@
 	}
 	/* halaman kamus hukum */
 
+	/* halaman favorit kata kamus hukum */
+	.title-fav-kata{
+		margin-top: 30px !important;
+		margin-bottom: 7px;
+		font-size: 19px;
+	}
+	.mt-set-fav-kata {
+		margin-top: 10px;
+	}
+	.delete-btn-fav {
+		margin-top: -3px;
+	}
+	/* halaman favorit kata kamus hukum */
+
 	/* ------------ halaman lain ---------- */	
 
 	/* chat-sc */
