@@ -1,4 +1,4 @@
-/*  halaman hubungi kami */ 
+ halaman hubungi kami */ 
  .mt-115 {
   margin-top: 115px;
 }
@@ -1484,6 +1484,61 @@ textarea.form-control{
 }
 /* detail kontrak hukum */
 
+/* kontrak hukum saya */
+.f-kontrak-saya {
+  font-family: pop-med !important;
+}
+.c-kontrak-saya {
+  font-size: 7px;
+}
+.log-tanggal-kontrak-saya {
+  color: #ababab;
+}
+.act-box {
+ margin-top: 15px;
+ background: #FFFFFF;
+ box-sizing: border-box;
+ border: 1px solid #fff;
+ box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.07);
+ border-radius: 8px;
+ padding: 8px 25px;
+}
+.act-box-active,.act-box:hover {
+ border: 1px solid #E62968;
+}
+.mt-choise-kontrak-saya {
+  margin-top: -22px;
+}
+.pad-drop-kontrak-saya {
+  padding:15px 0px;
+}
+.ml-3-7 {
+  margin-left: 3.7rem!important;
+}
+.choise-list-kontrak,.choise-list-kontrak:hover,.choise-list-kontrak:focus {
+  color: #16284C
+}
+
+/* xs */
+.backup-xs-kontrak-saya {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.bottom-kontrak-saya {
+  background: #FF3276;
+  color: #fff;
+}
+.link-xs-kontrak-saya,.link-xs-kontrak-saya:hover,.link-xs-kontrak-saya:focus{
+  color: #16284C;
+  text-decoration: none;
+}
+.pad-title-xs-kontrak-saya{
+  padding:0px 15px;
+}
+/* xs */
+
+/* kontrak hukum saya */
+
 /* media screen */
 @media (max-width: 1020px) {
   .backup-card-smart-contract {
@@ -1579,4 +1634,4 @@ textarea.form-control{
   }
    /* halaman formulir kontrak hukum */
 }
-/* media screen */
+/* media screen

@@ -360,23 +360,9 @@
 </body>
 </html>
 
-
-<script>
-// Add act-btn class to the current button (highlight it)
-var header = document.getElementById("myDIV");
-var btns = header.getElementsByClassName("tes-bt");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("act-btn");
-    current[0].className = current[0].className.replace(" act-btn", "");
-    this.className += " act-btn";
-  });
-}
-</script>
-
 <script src="datepicker/jquery.min.js"></script>
 <script src="datepicker/datepicker.min.js"></script>
-
+<script src="js/act-formulir.js"></script>
 <script>
   $('.input-group.date').datepicker({format: "dd-mm-yyyy"}); 
 </script>
