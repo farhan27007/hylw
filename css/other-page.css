@@ -1524,9 +1524,9 @@ textarea.form-control{
   padding-left: 5px;
   padding-right: 5px;
 }
-.bottom-kontrak-saya {
+.bottom-kontrak-saya,.bottom-kontrak-saya:focus,.bottom-kontrak-saya:active {
   background: #FF3276;
-  color: #fff;
+  color: #fff !important;
 }
 .link-xs-kontrak-saya,.link-xs-kontrak-saya:hover,.link-xs-kontrak-saya:focus{
   color: #16284C;
@@ -1534,6 +1534,23 @@ textarea.form-control{
 }
 .pad-title-xs-kontrak-saya{
   padding:0px 15px;
+}
+.head-xs-list-kontrak {
+  padding: 20px;
+  background: #FF3276;
+  color: #fff;
+  font-family: pop-sembold;
+}
+.close-list-kontrak {
+  padding:1rem !important;
+  opacity: 1;
+}
+.content-popup-xs-list-kontrak {
+  border-radius: 0px 0px 15px 15px;
+  border: none;
+}
+.btn-choise-xs-kontrak {
+  font-size: 14px;
 }
 /* xs */
 
