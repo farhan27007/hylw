@@ -1,4 +1,4 @@
- halaman hubungi kami */ 
+ /* halaman hubungi kami */ 
  .mt-115 {
   margin-top: 115px;
 }
@@ -752,6 +752,39 @@ textarea.form-control{
     padding-top: 15px;
   }
   /* dt-kontrak-hukum */
+
+  /* halaman riwayat pembayaran */
+  .no-padding-xs {
+    padding: 0;
+  }
+  .img-riwayat-pembayaran {
+    width: 55px;
+    margin-top: 10px;
+  }
+  .xs-float-none {
+    float: none !important;
+  }
+  .xs-mb-0 {
+    margin-bottom: 0;
+  }
+  .border-rb{
+    margin-top: 0 !important;
+    border-bottom:none !important;  
+  }
+  .main-xs-block {
+    display: block !important;
+  }
+  /* halaman riwayat pembayaran */
+
+  /* halaman detail pendirian perusahaan */
+  .right-sub-float {
+    float: none !important;
+    text-align: left !important; 
+  }
+  .xs-perusahaan{
+    bottom: 80px;
+  }
+  /* halaman detail pendirian perusahaan */
 }
 /* halaman detail lawyer */
 
@@ -1518,8 +1551,33 @@ textarea.form-control{
 .choise-list-kontrak,.choise-list-kontrak:hover,.choise-list-kontrak:focus {
   color: #16284C
 }
-
-/* xs */
+.box-pt {
+  padding: 8px 0px;
+}
+.pt-padding-25 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.status-pt { 
+  color: #ababab;
+  font-size: 15px;
+  font-family: nunito;
+  margin-top: 14px;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.detail-status-pt {
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.tanggal-status-kontrak {
+  font-family: pop-med;
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ababab;
+}
 .backup-xs-kontrak-saya {
   padding-left: 5px;
   padding-right: 5px;
@@ -1555,6 +1613,173 @@ textarea.form-control{
 /* xs */
 
 /* kontrak hukum saya */
+
+/* pendaftaran haki */
+.backup-step-pendaftaran-haki{ 
+  font-family: nunito;
+  font-size: 13px;
+}
+.number-step-pendaftaran-haki {
+  background: #338ffa;
+  padding: 5px 11px;
+  border-radius: 100%;
+  color: #fff;
+  height: 30px;
+
+}
+.name-step-pendaftaran-haki {
+  color: #000000;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left: 8px;
+}
+.pb-12 {
+  padding-bottom: 12px;
+}
+.txt-end-formulir-haki {
+  font-family: nunito;
+  font-size: 14px;
+  color: #000;
+}
+/* pendaftaran haki */
+
+/* pendaftaran perusahaan */
+.fsz-20 {
+  font-size: 20px;
+}
+.backup-head-bantuan {
+  background: #32D320;
+  border-radius: 6px;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+}
+.title-bantuan-perusahaan {
+  font-family: pop-sembold;
+}
+.sub-title-bantuan-perusahaan {
+  font-size: 13px;
+  font-family: pop-med;
+  letter-spacing: 0.4px;
+}
+.btn-bantuan-perusahaan,.btn-bantuan-perusahaan:hover {
+  margin-top: 15px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  color: #32D320;
+  font-family: mont;
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 7px 20px;
+  letter-spacing: 0.5px;
+}
+.backup-box-bantuan-perusahaan {
+  padding: 15px;
+  background: url('../images/advokat-2.png');
+  background-size: 16%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.right-sub-float {
+  text-align: right;
+  float:left;
+  margin-top: 6px;
+}
+.fsz-13-5 a {
+  font-size: 13.5px !important;
+}
+/* pendaftaran perusahaan */
+
+/* riwayat pembayaran */
+.pt-padding-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.title-riwayat-pembayaran {
+  font-family: pop-sembold;
+  font-size: 24px;
+  line-height: 36px;
+  color:#16284c;
+}
+.border-rb {
+  margin-top: 25px;
+  border-bottom: 1.2px solid #C4C4C4;
+}
+.item-riwayat-pembayaran {
+  color:  #C4C4C4 !important;
+  font-size: 17px !important;
+}
+.nav-pills .item-riwayat-pembayaran.active, .nav-pills .show>.item-riwayat-pembayaran {
+  color: #16284c !important;
+  background-color: transparent;
+}
+.ml-20 {
+  margin-left: 20px !important;
+}
+.img-riwayat-pembayaran {
+  width: 40px;
+}
+.nav-pills .item-riwayat-pembayaran, .nav-pills .show>.item-riwayat-pembayaran:after {
+ content: "";
+ padding-bottom: 12px;
+ bottom: -1px;
+ left: 0;
+ border-bottom: 3px solid transparent;
+ border-radius: 0;
+ right: 0;
+ margin: 0 auto;
+}
+.nav-pills .item-riwayat-pembayaran.active, .nav-pills .show>.item-riwayat-pembayaran:focus:after, 
+.nav-pills .item-riwayat-pembayaran.active, .nav-pills .show>.item-riwayat-pembayaran:active:after {
+ border-bottom: 3px solid #338FFA;
+}
+.box-riwayat-pembayaran,.box-riwayat-pembayaran:hover{
+  border: none;
+  border-left: 5px solid #32D320;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.box-history-pembayaran,.box-history-pembayaran:hover {
+  box-shadow: none;
+  border-bottom: 1.2px solid #E0E0E0;
+  border-radius: 0;
+}
+.border-kontrak-riwayat,.border-kontrak-riwayat:hover {
+  border-left: 5px solid #E62968;
+}
+.name-lawyer-riwayat {
+  font-family: pop-sembold;
+  color: #16284C;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.sub-name-riwayat {
+  font-family: mont-regular;
+  margin-left: 6px;
+}
+.price-riwayat-pembayaran {
+  font-family: nunito;
+  color: #e62968;
+  margin-top: 6px;
+}
+.status-pembayaran {
+  font-family: nunito;
+  font-size: 14px;
+  color: #FBBC05;
+  margin-top: 4px;
+}
+.end-riwayat-payment {
+  color: #c4c4c4 !important;
+}
+.success-pembayaran-text {
+  color: #32D320;
+}
+.danger-pembayaran-text {
+  color: #F60E1C;
+}
+/* riwayat pembayaran */
 
 /* media screen */
 @media (max-width: 1020px) {
@@ -1595,7 +1820,7 @@ textarea.form-control{
     font-size: 14.8px;
   }
   .rate-price-lawyer {
-    font-size: 13px;
+    font-size: 14px;
   }
   .brief-lawyer {
     font-size: 13px;
@@ -1621,11 +1846,17 @@ textarea.form-control{
     height: 285px !important;
   }
   /* halaman kontrak hukum */
+
+  /* halaman formulir pendaftaran HAKI */
+  .cs-16-haki {
+    font-size: 16px !important;
+  }
+  /* halaman formulir pendaftaran HAKI */
 }
 @media (max-width: 423px) {
  .backup-card-smart-contract {
-    width: 100% !important;
-  } 
+  width: 100% !important;
+} 
 }
 @media (max-width: 370px) {
   .backup-card-smart-contract {
@@ -1634,21 +1865,21 @@ textarea.form-control{
 }
 @media (max-width: 950px) {
  /* halaman formulir kontrak hukum */
-  .xs-layout-item-nav {
-    flex: 0 0 50%;
-    max-width: 50%;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  .step-kontrak {
-    border-bottom: 2px solid transparent;
-  }
-  .btn-xs-block {
-    display: block;
-    width: 100%;  
-  }
-   /* halaman formulir kontrak hukum */
+ .xs-layout-item-nav {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-/* media screen
+.step-kontrak {
+  border-bottom: 2px solid transparent;
+}
+.btn-xs-block {
+  display: block;
+  width: 100%;  
+}
+/* halaman formulir kontrak hukum */
+}
+ /* media screen */
