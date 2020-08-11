@@ -1,0 +1,102 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Blog- HeyLaw</title>
+  <link rel="icon" type="image/png" href="images/logogram.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/other-page.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <!--   <script src="js/bootstrap.min.js"></script>         -->
+</head>
+<body>
+
+  <script>
+    $(function() {
+      $("#nav").load("template/nav.html");
+      $("#slider-blog").load("template/slider-blog.html");
+      $("#daftar-list-forum").load("template/daftar-list-forum.html");
+      $("#diskusi-blog").load("template/diskusi-blog.html");
+      $("#webinar-blog").load("template/webinar-blog.html");
+      $("#footer").load("template/footer.html");
+    });
+  </script>
+
+
+  <div id="nav"></div>
+
+  <div class="container cont-about mt-115">
+    <div class="row m-0">
+      <div class="col-lg-8 no-padding pl-25">
+
+        <!-- include slider blog -->
+        <div class="d-flex">
+          <p class="br-rr"></p>
+          <h3 class="h-title-blog">Posting terbaru</h3>
+        </div>
+
+        <div id="slider-blog"></div>
+        <!-- include slider blog -->
+
+        <!-- include webinar blog -->
+        <div id="webinar-blog"></div>
+        <!-- include webinar blog -->
+
+        <!-- include forum list -->
+        <div class="d-flex mt-5 pt-3">
+          <p class="br-rr"></p>
+          <h3 class="h-title-blog">Forum</h3>
+        </div>
+        <div class="row">
+          <div id="daftar-list-forum"></div>
+        </div>
+        <!-- include forum list -->
+
+
+      </div>
+
+
+      <div class="col-lg-4 no-padding-xs">
+
+        <div class="d-flex mt-xs-1">
+          <p class="br-rr"></p>
+          <h3 class="h-title-blog">Diskusi</h3>
+        </div>
+
+        <div class="box no-padding">
+          <div class="card-header card-head-blog">
+            <p class="text-blue-blog mt-1 mb-0">Buat pernyataan</p>
+          </div>
+          <div class="card-body">
+
+            <div class="d-flex">
+              <p><img src="images/avatar-blog/brian.png" class="img-user-blog" alt=""></p>
+              <p class="name-user-blog">Brian immanuel</p>
+            </div>
+
+            <textarea  rows="3" class="form-control transparent-form ask-form-blog" placeholder="Apa pertanyaan Anda?"></textarea>
+
+            <button type="submit" class="btn btn-primary btn-block float-none btn-kirim">
+              Buat pertanyaan<span class="badge badge-primary badge-ask-form"><i class="fas fa-arrow-right"></i></span>
+            </button>
+
+          </div>
+        </div>
+
+        <!-- include daftar diskusi -->
+        <div id="diskusi-blog"></div>
+        <!-- include daftar diskusi -->
+
+      </div>
+    </div>
+  </div>
+
+  <div id="footer" class="mt-5 pt-4"></div>
+
+</body>
+</html>
