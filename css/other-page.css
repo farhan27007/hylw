@@ -698,6 +698,26 @@ textarea.form-control{
   .mt-xs-1 {
     margin-top: 15px;
   }
+  .link-blog-top {
+    margin-bottom:10px;
+  }
+  .backup-nav-top-xs {
+    padding-bottom: 0 !important;
+    margin-bottom: 30px !important;
+    border-bottom: 1px solid transparent !important;
+  }
+  .title-detail-forum-blog {
+    font-size: 22px !important;
+  }
+  .content-detail-forum-blog {
+    font-size: 15.5px;
+  }
+  .like-detail-blog a {
+    font-size: 16px;
+  }
+  .xs-set-18 {
+    font-size: 18px !important;
+  }
   /* halaman blog */
 }
 /* halaman detail lawyer */
@@ -1240,7 +1260,7 @@ textarea.form-control{
 }
 .nav-pills .btn-kat.active, .nav-pills .show>.btn-kat {
   color: #fff !important;
-  border: 3px solid #338ffa;
+  border: 5.5px solid #338ffa;
 }
 
 .kat-all {
@@ -1855,7 +1875,131 @@ textarea.form-control{
   object-fit: fill;
   border-radius: 8px;
 }
+.backup-nav-top-xs {
+  border-bottom: 1px solid #ABABAB;
+}
+.link-blog-top {
+  font-family: mont;
+  font-weight: bold;
+  font-size: 16px !important;
+  color: #000000 !important;
+}
+.search-blog {
+  border: 1px solid #ABABAB;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 7px 12px;
+}
+.btn-search-blog {
+  padding: 2px 31px;
+}
+.link-blog-top:hover,.link-blog-top:focus,.link-blog-top:active {
+  transition: all 0.2s ease-in-out;
+  color: #32d320 !important;
+}
+.fsz-14 {
+  font-size: 14px !important; 
+}
+.fsz-12 {
+  font-size: 12.5px;
+}
+.grey-icon {
+  color: #ababab;
+}
+.img-populer-blog {
+  width: 145px;
+  height: 95px;
+  object-fit: fill;
+  border-radius: 8px;
+}
 /* halaman blog */
+
+/* detail forum blog */
+.title-detail-forum-blog {
+  font-family: mont;
+  font-weight: bold;
+  font-size: 34.5px;
+  color: #000000;
+  letter-spacing: 0.2px;
+  line-height: 1.5
+}
+.color-txt-blck {
+  color: #000;
+}
+.content-detail-forum-blog,.isi-komen-blog {
+  font-family: Nunito;
+  font-weight: normal;
+  font-size: 17px;
+  text-align: justify;
+  color: #000000;
+}
+.like-detail-blog a{
+  font-family: mont;
+  font-weight: bold;
+  font-size: 18px;
+  color: #C4C4C4;
+}
+.like-detail-blog a:hover,.like-detail-blog a:focus,.like-detail-blog a:active{
+  color: #32d320;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.backup-komen-detail-blog {
+  border-bottom: 1.2px solid #E5E5E5;
+}
+.img-komen-blog {
+  width: 45px;
+  height: 45px;
+}
+.name-komen-blog {
+  font-family: mont;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+}
+.log-komen-blog {
+  margin-left: 11px;font-size: 12px;
+}
+.fsz-16 {
+  font-size: 15.5px !important;
+}
+.img-disk-lainnya {
+  width: 100px;
+  height: 70px;
+}
+.head-diskusi-lainnya {
+  background-color: #069DD8;
+}
+/* detail forum blog */
+
+/* diskusi blog */
+.box-my-question {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.fsz-sub-diskusi {
+  font-size: 13px !important;
+}
+.no-border-card {
+  border: none !important;
+}
+.card-jawaban-lawyer-blog {
+  background: transparent;
+  border-top: 1.2px solid #C4C4C4;
+}
+.jawaban-lawyer-forum-blog {
+  margin-bottom: 20px;
+  text-align: inherit;
+}
+.btn-lihat-jawaban {
+  border-radius: 8px !important;
+  position: relative !important;
+}
+.btn-lihat-jawaban:hover, .btn-lihat-jawaban:focus, .btn-lihat-jawaban:active {
+  color: #fff !important;
+  background-color: #338ffa !important;
+}
+/* diskusi blog */
 
 /* media screen */
 @media (max-width: 1020px) {

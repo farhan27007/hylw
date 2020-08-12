@@ -12,16 +12,17 @@
   <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
   <script src="js/popper.min.js"></script>
   <script src="js/jquery.min.js"></script>
-  <!--   <script src="js/bootstrap.min.js"></script>         -->
+  <script src="js/bootstrap.min.js"></script>        
 </head>
 <body>
 
   <script>
     $(function() {
       $("#nav").load("template/nav.html");
+      $("#nav-blog").load("template/nav-blog.html");
       $("#slider-blog").load("template/slider-blog.html");
       $("#daftar-list-forum").load("template/daftar-list-forum.html");
-      $("#diskusi-blog").load("template/diskusi-blog.html");
+      $("#t-diskusi-blog").load("template/t-diskusi-blog.html");
       $("#webinar-blog").load("template/webinar-blog.html");
       $("#footer").load("template/footer.html");
     });
@@ -31,6 +32,11 @@
   <div id="nav"></div>
 
   <div class="container cont-about mt-115">
+
+    <!-- include nav untuk blog -->
+    <div id="nav-blog"></div>
+    <!-- include nav untuk blog -->
+
     <div class="row m-0">
       <div class="col-lg-8 no-padding pl-25">
 
@@ -89,7 +95,7 @@
         </div>
 
         <!-- include daftar diskusi -->
-        <div id="diskusi-blog"></div>
+        <div id="t-diskusi-blog"></div>
         <!-- include daftar diskusi -->
 
       </div>
