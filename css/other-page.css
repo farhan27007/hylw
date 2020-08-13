@@ -866,6 +866,7 @@ textarea.form-control{
   color: #C4C4C4;
 }
 .log-time img {
+  width: 14px;
   margin-left: 5px;
 }
 .fix-btm {
@@ -884,7 +885,7 @@ textarea.form-control{
   background-color: rgba(51, 143, 250, 0.3);
 }
 .btn-send-chat:first-child {
-  color: #32D320;
+  color: #c4c4c4;
 }
 .btn-send-chat:first-child:hover,  .btn-send-chat:first-child:focus,  .btn-send-chat:first-child:active {
   background-color: rgba(50, 211, 32, 0.3);
@@ -908,7 +909,10 @@ textarea.form-control{
   padding: 8px 25px;
 }
 .backup-cht-lw:hover {
-  background: #F1F3F5;
+  background: #F7FAFE;
+}
+.act-backup-cht {
+  background-color: #f1f3f5 !important;
 }
 .chat-lawyer-name a {
   font-family: pop-sembold;
@@ -946,7 +950,12 @@ textarea.form-control{
   padding: 5px;
   border-radius: 100%;
 }
-@media(max-width: 1093px) {
+@media (max-width: 1440px) {
+  .online-chat {
+    bottom:2px;
+  }
+}
+@media(max-width: 1141px) {
   .online-chat {
     bottom:17px;
   }

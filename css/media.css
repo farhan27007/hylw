@@ -7,6 +7,10 @@
 	.nav-link:hover,.nav-link:focus,.nav-link:active {
 		color: #32D321 !important;
 	}
+	.custom-services-card, .img-hp {
+		height: auto !important;
+	}
+
 }
 @media(max-width: 780px) {
 	
