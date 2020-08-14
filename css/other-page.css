@@ -954,10 +954,16 @@ textarea.form-control{
   .online-chat {
     bottom:2px;
   }
+  .xs-pad-30-0 {
+    padding: 0px 30px;
+  }
 }
 @media(max-width: 1141px) {
   .online-chat {
     bottom:17px;
+  }
+  .xs-pad-30-0 {
+    padding: 0px 15px !important;
   }
 }
 @media (max-width: 720px) {
